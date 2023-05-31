@@ -50,8 +50,10 @@ public class CardTrick {
         userCard.setSuit(suit);
         boolean found = false;
 
-        for (Card card : magicHand) {
-            if (card.equals(userCard)) {
+        for (Card card : magicHand) 
+        {
+            if (card.equals(userCard)) 
+            {
                 found = true;
                 break;
             }

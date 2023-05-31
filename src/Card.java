@@ -5,23 +5,28 @@
 
 /**
  *
- * @author kunda
+ * @author Kundan Kumar
+ * Student ID: 991700093
  */
 class Card {
 
     static String[] SUITS;
 
-    void setValue(int value) {
+    void setValue(int value) 
+    {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
-    void setSuit(String suit) {
+    void setSuit(String suit) 
+    {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
-    static class SUITS {
+    static class SUITS 
+    {
 
-        public SUITS() {
+        public SUITS() 
+        {
         }
     }
     
