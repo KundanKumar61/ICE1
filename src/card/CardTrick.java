@@ -34,6 +34,11 @@ public class CardTrick {
             c.setSuit(suit);
             magicHand[i] = c;
         }
+        Card luckyCard = new Card();
+        luckyCard.setValue(10); // Choose any card number you like
+        luckyCard.setSuit("Hearts"); // Choose any suit you like
+        magicHand[magicHand.length - 1] = luckyCard;
+        
         Scanner scanner = new Scanner(System.in);
         System.out.print("Pick a card: ");
         int value = scanner.nextInt();
